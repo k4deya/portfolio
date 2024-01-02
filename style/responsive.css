@@ -487,7 +487,7 @@
         justify-content: center;
     }
     #omnie img{
-        margin: 0px 0px 0px 30%;
+        margin: 0px 0px 0px 25%;
         float: none;
         height: 200px;
         width: 200px;
@@ -496,7 +496,7 @@
         width: 300px;
         font-size: 70%;
         text-align: center;
-        justify-content: center;
+        margin-left: 30px;
     }
     #omnie h1{
         font-size: 35px;
@@ -517,6 +517,7 @@
         font-size: 70%;
         margin-top: -100px;
         text-align: center;
+        margin-left: 50px;
     }
     #umiejetnoscibar h1{
         font-size: 35px;
@@ -565,7 +566,7 @@
         font-size: 35px;
         margin-top: 1000px;
         padding-top: 30px;
-        justify-content: center;
+        margin-left: 40px;
     }
     #doswiadczenie p{
         font-size: 70%;
@@ -582,12 +583,12 @@
     #prog{
         font-size: 35px;
         padding-top: 30px;
-        justify-content: center;
+        margin-left: 70px;
     }
     #programy{
         width: 150px;
         height: 150px;
-        margin-left: 150px;
+        margin-left: 120px;
         padding: 10px 5px 5px 10px;
         justify-content: center;
         margin-top: 50px;
@@ -595,7 +596,7 @@
     #programy1{
         width: 150px;
         height: 150px;
-        margin-left: 150px;
+        margin-left: 120px;
         padding: 10px 5px 5px 10px;
         justify-content: center;
         margin-top: 50px;
