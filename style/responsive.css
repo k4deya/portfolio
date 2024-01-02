@@ -484,7 +484,7 @@
     }
     #omnie{
         height: 300px;
-        justify-content: center;
+        margin-left: 20px;
     }
     #omnie img{
         margin: 0px 0px 0px 22%;
@@ -506,7 +506,6 @@
     #umiejetnoscibar{
         width: 200px;
         float: left;
-        justify-content: center;
     }
     #umiejetnosci{
         margin-top: 200px;
@@ -517,6 +516,7 @@
         font-size: 70%;
         margin-top: -100px;
         text-align: center;
+        margin-left: 60px;
     }
     #umiejetnoscibar h1{
         font-size: 35px;
