@@ -1,0 +1,139 @@
+do kopiowania responsywnosc
+
+@media screen and (min-width: 992px) and (max-width: 1200px)
+{
+    header img{
+        width: 40px;
+        height: 40px;
+        margin-top: 15px;
+    }
+    a img:hover{
+        width: 50px;
+        height: 50px;
+    }
+    header{
+        height: 70px;
+        width: 100%;
+    }
+    #odn{
+        font-size: 110%;
+        margin: 30px 20px 0px 15px;
+    }
+    #omnie{
+        height: 300px;
+    }
+    #omnie img{
+        margin-top: 50px;
+    }
+    #omnie p{
+        width: 400px;
+        font-size: 90%;
+    }
+    #omnie h1{
+        font-size: 35px;
+        margin: -200px 0px 50px 100px;
+        padding-top: 70px;
+    }
+    #umiejetnoscibar{
+        margin-left: -400px;
+        width: 300px;
+        float: left;
+    }
+    #umiejetnosci{
+        margin-top: 300px;
+    }
+    #umiejetnosci p{
+        width: 400px;
+        font-size: 80%;
+        margin-top: 100px;
+    }
+    #umiejetnoscibar h1{
+        font-size: 35px;
+        margin-bottom: 50px;
+        padding-top: 230px;
+    }
+    .skills{
+        width: 100%;
+        max-width: 250px;
+    }
+    .skill-name{
+        font-size: 12px;
+        font-weight: 500px;
+    }
+    .skill-bar{
+        height: 10px;
+    }
+    .skill-per{
+        height: 10px;
+    }
+    .skill-per::before{
+        width: 23px;
+        height: 15px;
+        font-size: smaller;
+    }
+    .skill.per::after{
+        width: 6px;
+        height: 6px;
+        border: 1px;
+    }
+
+    #flagi{
+        width: 30px;
+        height: 30px;
+    }
+    #flagitekst{
+        font-size: 95%;
+    }
+    #doswi{
+        font-size: 35px;
+        margin-top: 1000px;
+        padding-top: 70px;
+    }
+    #doswiadczenie p{
+        font-size: 90%;
+    }
+    #downloadb{
+        width: 15px;
+        height: 15px;
+    }
+    #certifikat{
+        font-size: 15px;
+    }
+    #prog{
+        font-size: 35px;
+    }
+    #programy{
+        width: 150px;
+        height: 150px;
+        margin-left: 50px;
+        padding: 10px 5px 5px 10px;
+    }
+    #programy1{
+        width: 150px;
+        height: 150px;
+        margin-left: 50px;
+        padding: 10px 5px 5px 10px;
+    }
+    #programy img{
+        width: 150px;
+        height: 150px;
+    }
+    #programy1 img{
+        width: 150px;
+        height: 150px;
+    }
+    #kontakt{
+        font-size: 35px;
+    }
+    footer{
+        height: 70px;
+    }
+    #mediaa{
+        width: 30px;
+        height: 30px;
+    }
+    #mediaa:hover{
+        width: 40px;
+        height: 40px;
+    }
+}

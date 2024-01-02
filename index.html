@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Jan Krankowski 2P</title>
+    <link rel="stylesheet" href="style/style.css"><!--moje-->
+    <link rel="stylesheet" href="style/slider.css"><!--moje-->
+    <link rel="stylesheet" href="style/responsive.css"><!--moje-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"><!--bootstrap-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><!--skillbar-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet"><!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!--google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia&display=swap" rel="stylesheet"><!--google fonts-->
+</head>
+<body>
+    <header>
+        <a href="indexeng.html"><img src="images/flagi/flageng.png"></a>
+        <a href="#omniee"><p id="odn">O mnie</p></a>
+        <a href="#umiej"><p id="odn">Umiejętności</p></a>
+        <a href="#doswi"><p id="odn">Doświadczenie</p></a>
+        <a href="#prog"><p id="odn">Programy</p></a>
+        <a href="#kontakt"><p id="odn">Kontakt</p></a>
+    </header>
+    <main>
+        <div id="omnie">
+            <h1 id="omniee">O mnie</h1>
+            <img src="images/zdjecie1.png">
+            <p>
+                Nazywam się <span id="wazne">Jan Krankowski</span>. Moja pasja do programowania i projektowania stron oraz baz danych rozpoczęła się w 2022 roku wraz z podjęciem nauki w ZSMEIE. Moim celem jest tworzenie jak najlepszych <span id="wazne">stron internetowych</span> oraz <span id="wazne">systemów bazodanowych</span>. Zawsze dążę do doskonalenia swoich umiejętności i poszukuję nowych możliwości rozwoju. Poza pracą zawsze szukam inspiracji i pomysłów na nowe projekty. Zapraszam Cię do zapoznania się z <span id="wazne">moim portfolio</span>, gdzie znajdziesz przegląd mojej dotychczasowej pracy i osiągnięć. Zapoznasz się też wstępnie z moimi umiejętnościami oraz zobaczych w czym mogę Ci pomóc. Jeśli widzisz potencjał dla naszej współpracy lub masz pytanie skontaktuj się ze mną za pomocą social mediów lub <a href="#kontakt" id="wtekst">formularza</a> zamieszczonego na dole strony.
+            </p>
+    </div>
+    <div id="umiejetnoscibar">
+        <h1 id="umiej">Umiejętności</h1>
+        <div class="skills">
+            <div class="skill">
+                <div class="skill-name">HTML</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="90"></div>
+                </div>
+            </div>
+        </div>
+        <div class="skills">
+            <div class="skill">
+                <div class="skill-name">CSS</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="85"></div>
+                </div>
+            </div>
+        </div>
+        <div class="skills">
+            <div class="skill">
+                <div class="skill-name">SQL</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="50"></div>
+                </div>
+            </div>
+        </div>
+        <div class="skills">
+            <div class="skill">
+                <div class="skill-name">JS</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="40"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script>
+                $('.skill-per').each(function(){
+                  var $this = $(this);
+                  var per = $this.attr('per');
+                  $this.css("width",per+'%');
+                  $({animatedValue: 0}).animate({animatedValue: per},{
+                    duration: 1000,
+                    step: function(){
+                      $this.attr('per', Math.floor(this.animatedValue) + '%');
+                    },
+                    complete: function(){
+                      $this.attr('per', Math.floor(this.animatedValue) + '%');
+                    }
+               });
+                });
+             </script>
+            <div id="umiejetnosci">
+                <p>
+                    <span id="takk">Umiejętności</span>
+                    Jestem ciągle rozwijającym się <span id="wazne">junior developerem</span>, a aktualny poziom moich umiejętności <span id="wazne">języków programowania</span> zaprezentowałem na wykresie obok. Doskonalę również swoją znajomość <span id="wazne">języków obcych</span>. Aktualny poziom ich znajomości prezentuje poniższa grafika: <br><br><br><img src="images/flagi/flageng.png" id="flagi"><span id="flagitekst">Angielski B2+</span><br><br><br><img src="images/flagi/flagger.png" id="flagi"><span id="flagitekst">Niemiecki A2</span><br><br><br><img src="images/flagi/flagjap.png" id="flagi"><span id="flagitekst">Japoński A2</span>
+                </p>
+            </div>
+            <h1 id="doswi">Doświadczenie</h1>
+            <div id="doswiadczenie">
+                <p>
+                    W mojej <span id="wazne">2-letniej</span> podróży wykonałem wiele projektów, zarówno na potrzeby prac szkolnych jak i poza nią. W międzyczasie zdobyłem również <span id="wazne">certyfikaty</span>, które można pobrać poniżej.
+                </p>
+                <a id="certifikat" href="certyfikaty/cisco.pdf" download="certifikat cisco" target="_blank"><img id="downloadb" src="images/download.svg">Certifikat cisco</a>
+            </div>
+            <h1 id="prog">Programy które osbsuguję</h1>
+            <div id="programy">
+                <img src="images/programy/vsc.png" title="visual studio code">
+            </div>
+            <div id="programy1">
+                <img src="images/programy/vs.png" title="visual studio">
+            </div>
+            <div id="programy">
+                <img src="images/programy/unity.png" title="unity">
+            </div>
+            <div id="programy1">
+                <img src="images/programy/photoshop.png" title="photoshop">
+            </div>
+
+
+
+            <h1 id="kontakt">Kontakt</h1>
+            <section id="form">
+                <form method="post" action="" name="contact-form">
+                <p>Imie: </p><input type="text" placeholder="Imię..." name="imie">
+                <p id="imiez"></p><br>
+                <p>Nazwisko: </p><input type="text" placeholder="Nazwisko..." name="nazwisko">
+                <p id="nazwiskoz"></p><br>
+                <p>Rodzaj pracy: </p>
+                <select placeholder="rodzaj pracy" name="rodzaj">
+                    <option>Wybierz rodzaj pracy</option>
+                    <option>programista do stron internetowych</option>
+                    <option>programista do baz danych</option>
+                </select>
+                <p id="rodzajz"></p><br>
+                <p>Mail do kontaktu zwrotnego: </p><input type="mail" name="mail" placeholder="Mail...">
+                <p id="mailz"></p><br>
+                <p>Opis pracy: </p>
+                <textarea name="" id="niee" cols="60" rows="10" placeholder="Krótko opisz pracę" name="opis"></textarea><br>
+                <p id="opisz"></p><br>
+                <input type="submit" value="Wyślij zgłoszenie" id="submit" onclick="send()">
+            </form>
+        </section>
+        <script src="../skrypt/skrypt.js"></script>
+    
+    </main>
+    <footer>
+        <a href="https://www.facebook.com/janko.filizanko?locale=pl_PL" target="_blank"><img src="images/media/facebook.png" id="mediaa"></a>
+        <a href="mailto: jan.krankowski@wp.pl"><img src="images/media/mail.png" id="mediaa"></a>
+    </footer>
+    <nav style="background-color: red; width: 480px;">taktak</nav>
+</body>
+</html>
