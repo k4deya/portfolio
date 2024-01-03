@@ -1,3 +1,55 @@
+@media screen and (min-width: 1201px) and (max-width: 1750px)
+{
+    #programy{
+        width: 200px;
+        height: 200px;
+        margin-left: 150px;
+        padding: 10px 5px 5px 10px;
+    }
+    #programy1{
+        width: 200px;
+        height: 200px;
+        margin-left: 150px;
+        padding: 10px 5px 5px 10px;
+    }
+    #programy img, #programy1 img{
+        width: 200px;
+        height: 200px;
+    }
+    #downloadb{
+        margin-left: 40%;
+    }
+    .skills{
+        width: 100%;
+        max-width: 400px;
+    }
+    .skill-name{
+        font-size: 20px;
+        font-weight: 500px;
+    }
+    .skill-bar{
+        height: 20px;
+    }
+    .skill-per{
+        height: 20px;
+    }
+    .skill-per::before{
+        width: 23px;
+        height: 15px;
+        font-size: smaller;
+    }
+    .skill.per::after{
+        width: 6px;
+        height: 6px;
+        border: 1px;
+    }
+    #umiejetnoscibar{
+        margin-left: -40%;
+    }
+}
+
+
+
 @media screen and (min-width: 992px) and (max-width: 1200px)
 {
     header img{
@@ -469,25 +521,29 @@
         width: 20px;
         height: 20px;
         margin-top: 5px;
+        opacity: 0%;
     }
     a img:hover{
         width: 24px;
         height: 24px;
+        opacity: 0%;
     }
     header{
         height: 50px;
         width: 100%;
+        opacity: 0%;
     }
     #odn{
         font-size: 70%;
         margin: 5px 15px 0px 10px;
+        opacity: 0%;
     }
     #omnie{
         height: 300px;
-        margin-left: 20px;
+        justify-content: center;
     }
     #omnie img{
-        margin: 0px 0px 0px 22%;
+        margin: 0px 0px 0px 30%;
         float: none;
         height: 200px;
         width: 200px;
@@ -496,7 +552,7 @@
         width: 300px;
         font-size: 70%;
         text-align: center;
-        margin: 50px 60px 0px 0px;
+        margin-left: 5%;
     }
     #omnie h1{
         font-size: 35px;
@@ -506,17 +562,18 @@
     #umiejetnoscibar{
         width: 200px;
         float: left;
+        justify-content: center;
     }
     #umiejetnosci{
         margin-top: 200px;
-        margin-left: 60px;
+        justify-content: center;
+        margin-left: 10%;
     }
     #umiejetnosci p{
         width: 300px;
         font-size: 70%;
         margin-top: -100px;
         text-align: center;
-        margin-left: 60px;
     }
     #umiejetnoscibar h1{
         font-size: 35px;
@@ -565,16 +622,15 @@
         font-size: 35px;
         margin-top: 1000px;
         padding-top: 30px;
-        margin-left: 30px;
+        margin-left: 10%;
     }
     #doswiadczenie p{
-        font-size: 70%;
-        width: 150px;
+        font-size: 80%;
     }
     #downloadb{
         width: 15px;
         height: 15px;
-        margin-left: 150px;
+        margin-left: 40%;
         margin-top: 50px;
     }
     #certifikat{
@@ -583,12 +639,12 @@
     #prog{
         font-size: 35px;
         padding-top: 30px;
-        margin-left: 70px;
+        justify-content: center;
     }
     #programy{
         width: 150px;
         height: 150px;
-        margin-left: 120px;
+        margin-left: 150px;
         padding: 10px 5px 5px 10px;
         justify-content: center;
         margin-top: 50px;
@@ -596,7 +652,7 @@
     #programy1{
         width: 150px;
         height: 150px;
-        margin-left: 120px;
+        margin-left: 150px;
         padding: 10px 5px 5px 10px;
         justify-content: center;
         margin-top: 50px;
@@ -611,6 +667,7 @@
     }
     #kontakt{
         font-size: 35px;
+        margin-top: 50px;
         justify-content: center;
     }
     form{
