@@ -567,16 +567,16 @@
     #umiejetnosci{
         margin-top: 200px;
         justify-content: center;
-        margin-right: 20%;
-        float: right;
+        margin-left: 20%;
+        float: left;
     }
     #umiejetnosci p{
         width: 300px;
         font-size: 70%;
         margin-top: -100px;
         text-align: center;
-        margin-right: 20%;
-        float: right;
+        margin-left: 20%;
+        float: left;
     }
     #umiejetnoscibar h1{
         font-size: 35px;
